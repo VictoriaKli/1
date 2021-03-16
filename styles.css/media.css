@@ -386,3 +386,193 @@
 
 
 }
+
+@media screen and (max-width: 576px) {
+    .container {
+        width: 320px;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .header_firstrow {
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-bottom: 251px;
+    }
+
+    .logo_box {
+        margin-bottom: 30px;
+    }
+
+    .nav_links {
+        justify-content: space-around;
+    }
+
+    .nav_text {
+        margin-right: 15px;
+    }
+
+    .nav_pic {
+        display: none;
+    }
+
+    .slogan_all {
+        margin-bottom: 251px;
+    }
+
+    .slogan_high {
+        font-size: 27px;
+    }
+
+    .slogan_mid {
+        font-size: 30px;
+    }
+
+
+    .slogan_high,
+    .slogan_mid,
+    .slogan_low,
+    .slogan_text {
+        width: 320px;
+    }
+
+    .badge {
+        display: none;
+    }
+
+    .menu_item_all {
+        justify-content: center;
+    }
+
+    .project_links {
+        flex-wrap: wrap;
+    }
+
+    .project_button {
+        margin-bottom: 10px;
+    }
+
+    .purchase_title,
+    .purchase_desc {
+        text-align: center;
+    }
+
+    .purchase_box {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .purchase_now {
+        margin-bottom: 50px;
+    }
+
+    .project_title,
+    .project_desc,
+    .realization_title,
+    .realization_text,
+    .posts_title,
+    .posts_desc {
+        width: 320px;
+    }
+
+    .project_box {
+        justify-content: center;
+    }
+
+    .video_text {
+        width: 320px;
+    }
+
+    .mobile_title,
+    .posts_title {
+        margin-top: 61px;
+    }
+
+    .mobile_title,
+    .mobile_desc {
+        width: 320px;
+        margin-right: 0;
+        text-align: center;
+    }
+
+    .mobile_desc {
+        font-size: 16px;
+    }
+
+    .posts_box {
+        margin-right: 10px;
+    }
+
+    .mobile_list {
+        width: 320px;
+    }
+
+    .mobile_icon {
+        background-image: none;
+    }
+
+    .mob_list_text {
+        font-size: 12px;
+        width: 297px;
+    }
+
+    .mob_pic {
+        display: none;
+    }
+
+    .counters_all {
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+
+    }
+
+    .counters_box {
+        width: 60px;
+
+    }
+
+    .counters_box:not(:last-of-type) {
+        margin-right: 0px;
+    }
+
+    .partners_pic {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .partners_logo {
+        width: 100px;
+        margin-bottom: 10px;
+    }
+
+    .partners_logo:not(:last-of-type) {
+        margin-right: 10px;
+    }
+
+    .footer_info {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .faq_link {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .faq_link a {
+        margin-bottom: 10px;
+    }
+
+    .faq_support:after {
+        content: '';
+        display: block;
+        width: 1px;
+        height: 16px;
+        background: #1A1A1A;
+        float: right;
+        margin-left: 11px;
+        margin-right: 9px;
+    }
+
+}
